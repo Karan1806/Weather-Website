@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.container{
+     width: 90%;
+     max-width: 450px;
+     margin: 100px auto 0;
+     background: linear-gradient(180deg, rgba(19,7,84,1) 0%, rgba(59,63,128,1) 100%);
+     border-radius: 20px;
+     padding: 40px 30px;
+     border-radius: 15px;
+
+}
+
+.search-container{
+     
+display: flex;
+    
+
+}
+
+.cityInput{
+    
+     border-radius: 20px;
+     align-items: center;
+     width: 60%;
+     margin: auto;
+     padding: 8px 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+
+}
+  
+.search-icon{
+     width: 33px;
+     height: 33px;
+     border-radius: 50%;
+     cursor: pointer; 
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+     padding: 4px;
+     padding-left: 7px;
+     padding-top: 6px;
+}
+.clouddata{
+     text-align: center;
+     display: grid;
+}
+.clearimage{
+     padding-top: 20px;
+     margin-left: 8.5rem;
+     height: 80%;
+    
+}
+.temp{
+     color: white;
+     font-size: 4rem;
+     margin-top: -1.5rem;
+}
+.city{
+     color: white;
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+.leftdata{
+     margin-top: 3rem;
+     display:flex;
+     gap: 10rem;
+}
+.humiddata{
+     display: flex;
+     gap: 14px;
+     margin-left: 3rem
+}
+.humidity2{
+     font-size: 15px;
+     margin-top: -.25rem;
+}
+.humidity{
+     color: white;
+     font-size: 30px;
+}
+.humidityimage{
+     height: 50%;
+     margin-top: 1rem;
+}
+
+
+.winddata{
+     display: flex;
+     gap: 14px;
+     margin-left: -2rem;
+}
+.wind2{
+     font-size: 15px;
+     margin-top: -.25rem;
+}
+.wind{
+     color: white;
+     font-size: 30px;
+}
+.windimage{
+     height: 50%;
+     margin-top: 1rem;
+}
